@@ -18,6 +18,7 @@ public class SpringMVCTest {
 	BasicConfigurator.configure(new FileAppender(new SimpleLayout(), "raju.log", false));
 		Logger l = Logger.getLogger(SpringMVCTest.class);
 		l.setLevel(Level.DEBUG);
+		System.out.println("I am checking git");
 		l.info("------container reading the contents from spring.xml file and store it in jvms memory----"); 
 		ApplicationContext container = new ClassPathXmlApplicationContext("spring.xml");
 		l.info("------creating the obj of EmployeeController by calling getBean()------");
