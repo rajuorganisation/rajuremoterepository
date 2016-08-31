@@ -8,7 +8,7 @@
  
  
 <bean id="empdto" class="com.raju.springdao.EmployeeDTO" scope="prototype">
-<property name="no" value="29"/>
+<property name="no" value="30"/>
 <property name="name" value="raju"/>
 <property name="salary" value="9000.00"/>
 </bean>
