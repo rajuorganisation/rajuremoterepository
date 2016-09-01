@@ -6,6 +6,7 @@ public class Test {
 		System.out.println("main()");
 		System.out.println("2nd statement");
 		Employee e = new Employee();
+		e.display();
 	}
 
 }
