@@ -8,6 +8,8 @@ public class Test {
 		Employee e = new Employee();
 		e.display();
 		e.show();
+		System.out.println(e.getNo());
+		
 	}
 
 }

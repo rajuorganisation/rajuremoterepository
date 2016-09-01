@@ -11,4 +11,7 @@ public void show(){
 	System.out.println("show()");
 	System.out.println("show()2");
 }
+public Integer getNo(){
+	return 3;
+}
 }
