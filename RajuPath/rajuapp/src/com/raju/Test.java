@@ -7,6 +7,7 @@ public class Test {
 		System.out.println("2nd statement");
 		Employee e = new Employee();
 		e.display();
+		e.show();
 	}
 
 }

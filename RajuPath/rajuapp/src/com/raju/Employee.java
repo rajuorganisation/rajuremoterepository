@@ -7,4 +7,7 @@ public Employee() {
 public void display(){
 	System.out.println("display()");
 }
+public void show(){
+	System.out.println("show()");
+}
 }
