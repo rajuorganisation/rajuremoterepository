@@ -9,5 +9,6 @@ public void display(){
 }
 public void show(){
 	System.out.println("show()");
+	System.out.println("show()2");
 }
 }
